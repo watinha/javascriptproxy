@@ -4,7 +4,6 @@ author webpage: http://watinha.com
 twitter: @watinha
 last updated: 02/03/2011
 
-============
 Introduction
 ============
 
@@ -14,13 +13,11 @@ The Javascript Proxy application simply runs as a cross domain proxy design patt
 
 The application tries to provide a way of customizing the interaction and layout of applications as a test enviroment for usability experiments.
 
-=========
 Howto use
 =========
 
 The JavaScript proxy application is executed in the Google AppEngine platform. As you run it you simply go for its url and give it a get parameter called url. This get parameter is supposed to contain the URL which you want to act as a proxy for. The idea is to be able to change the website from within and add new functionality to it, while keeping the DESIGN and Layout of the original website. 
 
-====
 Goal
 ====
 
@@ -28,7 +25,6 @@ The Goal of this application is to provide users with a good mock application fo
 
 By doing that we can conduct usability experiments to verify if the design and functionality changes actually improved the user experience for the web application.
 
-==============
 Current Status
 ==============
 
