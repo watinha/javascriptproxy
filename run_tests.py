@@ -10,6 +10,7 @@ import unittest
 
 sys.path.append("models")
 sys.path.append("handlers")
+sys.path.append("libs")
 sys.path.append("tests")
 
 from test_html_utilities import HtmlUtilitiesTest
