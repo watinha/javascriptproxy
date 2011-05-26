@@ -8,7 +8,7 @@ import re
 Decorator class JsReplaceDecorator
 """
 class JsReplaceDecorator():
-  
+
   def __init__(self, domain, other_decorator = ""):
     self.other_decorator = other_decorator
     self.domain = domain
@@ -18,14 +18,14 @@ class JsReplaceDecorator():
 
     if (self.other_decorator != ""):
       decorated_text = self.other_decorator.decorate(text)
-      
+
     return self.decorate(decorated_text)
 
   def decorate(self, text):
-    
+
     if (text == ""):
       return ""
-    
+
     #re.search("src\s*=\s*('|\")((\w|\.|/)+)('|\")", b) for recovering src="javsacript.js"
     search_string = text
     result = ""
